@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background: rgba(0,0,0,0.03);
+}
+.header{
+    background-color: rgb(255, 159, 127);
+    padding: 0 30px;
+    display: flex;
+    height: 60px;  
+}
+.header .left{
+    width: 50%;
+    display: flex;
+    position: relative;
+    align-items: center;    
+}
+.header .left .email{
+    padding-left: 15px;
+}
+.header .left p{
+    padding-right: 20px;
+    font-weight: bolder;
+}
+.header .left .num{
+    border-right: 2px solid black;
+}
+.header .left a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.header .right{
+    justify-content: end;
+    width: 50%;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+.header .right p{
+    padding: 0 30px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.header i{
+    padding: 0 10px;
+    font-size: 21px;
+    color: black;
+}
+.name{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.name .head{
+    text-align: center;
+    border-right: 3px solid black;
+    padding: 0 20px;
+}
+.name h1 h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.name h1{
+    font-size: 50px;
+}
+.name h2{
+    font-size: 30px;
+}
+
+.name .anu{
+    padding-left: 20px;
+}
+/* contend */
+.main_navi .contend{
+    width: 80%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.04),rgba(0,0,0,0.04)),url(Images/registration-application.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Navi Bar */
+.main_navi{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+}
+.menu_navi{
+    width: 20%;
+    background-color: #121227;
+    height: 100vh;
+
+}
+#logo{
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding: 15px;
+    background-color: #000;
+
+}
+.main_navi .menu_navi a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    display: list-item;
+    padding: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.main_navi .menu_navi a:hover{
+    background-color: red;
+    transition: 0.5s;
+    letter-spacing: 4px ;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    text-transform: uppercase;
+}
+/*Registration head  */
+
+/* fix redister image */
+.reg_img{
+    height: 300px;
+    background-image:url(Images/group-diverse-grads-throwing-caps-up-sky.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: -50px;
+    width: 95%;
+    margin: 0 auto;
+}
+/* form */
+.form{
+    padding-top: 60px;
+    
+
+}
+.form h1{
+    width: 65%;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 60px;
+    border-bottom: 3px solid black;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    
+    
+}
+table{
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+input[type=text]{
+    width: 800px;
+    height: 40px;
+    background: transparent;
+    outline: none;
+    padding-left:5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1.5px solid black;
+    font-weight: bold;
+}
+input[type=checkbox]{
+    accent-color: red;
+    margin: 0 10px;
+}
+input[type=radio]{
+    accent-color: red;
+    margin: 0 10px;
+}
+
+input[type=password]{
+    width: 400px;
+    height: 40px;
+    background: transparent;
+    border-radius: 5px;
+    outline: none;
+    font-weight: bold;
+    border: 1.5px solid black;
+    margin-right: 400px;
+}
+td {
+    padding: 15px;
+    text-align: right;
+}
+.sp{
+    text-align: left;
+}
+select{
+    background: transparent;
+    outline: none;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    height: 40px;
+    font-weight: bold;
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.zip input[type=text]{
+    width: 400px;
+    margin-right: 400px;
+}
+
+textarea{
+    width:700px;
+    height:200px;
+    padding-left:15px;
+    padding-top: 15px;
+    margin-right: 100px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    outline: none;
+    font-weight: bold;   
+}
+input[type=submit]{
+    width: 400px;
+    height: 50px;
+    background-color:#4CAF50;
+    outline: none;
+    border: none;
+    border-radius: 5px; 
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 250px;
+    margin-top: 25px;
+}
+input[type=submit]:hover{
+    background-color: #3e8e41;
+    cursor: pointer;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    padding: 50px;
+    background-color: #323232;
+    color:#a28e45;
+    display: flex;
+    margin-top: 100px;
+}
+.footer a{
+    text-decoration:none;
+    color:#a28e45;
+    display: block;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.footer div{
+    margin: auto;
+}
+.footer h3{
+    font-weight:bolder;
+    border-bottom: 2px solid #a28e45;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    font-size: 22px;
+}
